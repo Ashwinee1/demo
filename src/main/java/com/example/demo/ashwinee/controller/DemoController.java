@@ -13,4 +13,9 @@ public String meth1(@PathVariable String name)
 {
 	return "<h1>Hai "+name+" Welcome to Spring Boot</h1>";
 }
+	@GetMapping("/user")
+	public String meth2()
+	{
+		return "<h1>Welcome to Spring Boot</h1>";
+	}
 }
